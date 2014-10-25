@@ -1,11 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## TO-DO:  Check for required header information in the comments (date, author ,etc.)
-
 ## cachematrix.R - two functions for Coursera R Programming Assignment 2.
 ##                 See details below.
-##   author:  Joe Burns, 2014-10-20
+##   author:  muttinthehut (JoeB615), 2014-10-20
 ##   
 
 ## makeCacheMatrix:  creates a special "matrix" object that can cache its inverse
@@ -34,7 +29,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
 ## cacheSolve:  computes the inverse of the special "matrix"
 ##              returned by "makeCacheMatrix".  If the inverse
 ##              has already been calculated (and the matrix hasn't)
